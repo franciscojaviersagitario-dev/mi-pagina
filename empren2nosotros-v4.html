@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReJean | Moda sostenible</title>
+    <link rel="stylesheet" href="estiloemp.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- MENU DE NAVEGACION -->
+    <header>
+        <nav class="navbar container">
+
+            <a href="SACRATINASEMPRENDEDORAS.html" class="logo">
+                Re<span>Jean.</span>
+            </a>
+
+            <input type="checkbox" id="menu-toggle">
+
+            <label for="menu-toggle" class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="SACRATINASEMPRENDEDORAS.html#inicio">Inicio</a></li>
+                <li><a href="empren2nosotros.html">Nosotros</a></li>
+                <li><a href="SACRATINASEMPRENDEDORAS.html#beneficios">Beneficios</a></li>
+                <li><a href="SACRATINASEMPRENDEDORAS.html#catalogo">Catálogo</a></li>
+                <li><a href="SACRATINASEMPRENDEDORAS.html#contacto">Contacto</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- SECCIÓN NOSOTROS -->
+    <section class="section">
+        <div id="seccion-nosotros" class="container">
+
+            <!-- PANEL DE NOSOTROS -->
+            <div class="nosotros-panel activo" id="panelNosotros">
+
+                <div class="nosotros-menu">
+                    <button onclick="mostrarNosotros(0)" class="seleccionado">
+                        1. Narrativa digital
+                    </button>
+
+                    <button onclick="mostrarNosotros(1)">
+                        2. Misión
+                    </button>
+
+                    <button onclick="mostrarNosotros(2)">
+                        3. Visión
+                    </button>
+
+                    <button onclick="mostrarNosotros(3)">
+                        4. Valores
+                    </button>
+
+                    <button onclick="mostrarNosotros(4)">
+                        5. Sobre nosotros
+                    </button>
+                </div>
+
+                <!-- 1. NARRATIVA DIGITAL -->
+                <div class="contenido-nosotros activo">
+                    <h2>01. Narrativa digital</h2>
+                    <h3>I.E. Sagrado Corazón</h3>
+
+                    <p>
+                        Nuestro emprendimiento nace de una idea:
+                        darle una segunda oportunidad a aquellas
+                        prendas que muchas personas consideran
+                        inservibles.
+                    </p>
+
+                    <p>
+                        A través de la reutilización de jeans
+                        desechados, transformamos materiales que
+                        normalmente terminarían en la basura en
+                        hermosos y modernos jumpers.
+                    </p>
+
+                    <p>
+                        Inspirados en la creatividad, la innovación
+                        y el cuidado del medio ambiente, buscamos
+                        demostrar que la moda también puede ser
+                        responsable y sostenible.
+                    </p>
+
+                    <p>
+                        Desde la I.E. Sagrado Corazón impulsamos
+                        una propuesta emprendedora que une
+                        creatividad, conciencia ambiental y
+                        compromiso con nuestro entorno.
+                    </p>
+                </div>
+
+                <!-- 2. MISIÓN -->
+                <div class="contenido-nosotros">
+                    <h2>02. Nuestra misión</h2>
+                    <h3>El presente</h3>
+
+                    <p>
+                        Nuestra misión es diseñar y elaborar
+                        jumpers mediante la reutilización de jeans
+                        desechados por otras personas, convirtiendo
+                        prendas que ya no se utilizan en productos
+                        útiles, atractivos y modernos.
+                    </p>
+
+                    <p>
+                        Buscamos promover el consumo responsable,
+                        reducir los residuos textiles y ofrecer
+                        alternativas de moda sostenible,
+                        demostrando que podemos vestir con estilo
+                        mientras cuidamos el planeta.
+                    </p>
+                </div>
+
+                <!-- 3. VISIÓN -->
+                <div class="contenido-nosotros">
+                    <h2>03. Nuestra visión</h2>
+                    <h3>El futuro</h3>
+
+                    <p>
+                        Nuestra visión es convertirnos en un
+                        emprendimiento reconocido por la creación
+                        de prendas sostenibles, destacando por
+                        nuestra creatividad, calidad e innovación
+                        en la transformación de jeans reutilizados.
+                    </p>
+
+                    <p>
+                        Aspiramos a crecer, llegar a más personas
+                        y motivar a nuestra comunidad a adoptar
+                        hábitos de consumo responsables,
+                        contribuyendo a un futuro donde la moda
+                        y el cuidado ambiental trabajen juntos.
+                    </p>
+                </div>
+
+                <!-- 4. VALORES -->
+                <div class="contenido-nosotros">
+                    <h2>04. Nuestros valores</h2>
+                    <h3>Nuestra cultura</h3>
+
+                    <p><strong>♻ Responsabilidad ambiental:</strong>
+                    Aprovechamos materiales textiles y
+                    reducimos los desechos.</p>
+
+                    <p><strong>💡 Creatividad:</strong>
+                    Transformamos prendas usadas en diseños
+                    originales y atractivos.</p>
+
+                    <p><strong>🤝 Compromiso:</strong>
+                    Trabajamos con dedicación para ofrecer
+                    productos de calidad.</p>
+
+                    <p><strong>❤️ Solidaridad:</strong>
+                    Valoramos la colaboración y el apoyo
+                    de nuestra comunidad.</p>
+
+                    <p><strong>🌱 Innovación:</strong>
+                    Buscamos nuevas formas de reutilizar
+                    materiales y crear moda sostenible.</p>
+
+                    <p><strong>✨ Responsabilidad:</strong>
+                    Promovemos decisiones conscientes
+                    en la producción y el consumo.</p>
+                </div>
+
+                <!-- 5. SOBRE NOSOTROS -->
+                <div class="contenido-nosotros">
+                    <h2>05. Sobre nosotros</h2>
+                    <h3>Nuestra identidad</h3>
+
+                    <p>
+                        Somos un emprendimiento dedicado a la
+                        elaboración de jumpers a partir de jeans
+                        reutilizados que otras personas desechan.
+                        Nuestra propuesta combina moda,
+                        creatividad y sostenibilidad.
+                    </p>
+
+                    <p>
+                        Creemos que cada prenda tiene una nueva
+                        oportunidad y que los materiales que
+                        parecen no tener utilidad pueden
+                        convertirse en algo especial.
+                    </p>
+
+                    <p>
+                        Nuestro propósito no es solamente crear
+                        ropa, sino también generar conciencia
+                        sobre el impacto de los residuos textiles
+                        y demostrar que pequeños cambios pueden
+                        contribuir a un planeta más limpio.
+                    </p>
+
+                    <h3>¡Damos una nueva vida al denim!</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+    function mostrarNosotros(indice) {
+        const seccion = document.getElementById("seccion-nosotros");
+        const contenidos = seccion.querySelectorAll(".contenido-nosotros");
+        const botones = seccion.querySelectorAll(".nosotros-menu button");
+
+        contenidos.forEach((contenido, i) => {
+            contenido.classList.toggle("activo", i === indice);
+        });
+
+        botones.forEach((boton, i) => {
+            boton.classList.toggle("seleccionado", i === indice);
+        });
+    }
+    </script>
+
+</body>
+</html>
